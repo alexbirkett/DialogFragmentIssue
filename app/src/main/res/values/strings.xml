@@ -4,4 +4,7 @@
     <string name="fragment_example_dialog_switch">Switch</string>
     <string name="fragment_example_dialog_example_text_one">This is some example text</string>
     <string name="fragment_example_dialog_example_text_two">This is some different example text</string>
+    <string name="fragment_example_dialog_loading">Loading...</string>
+    <string name="main_activity_open_dialog">Open dialog</string>
+    main_activity_open_dialog
 </resources>

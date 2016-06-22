@@ -34,6 +34,14 @@ public class ExampleDialogFragment extends DialogFragment {
                 dismiss();
             }
         });
+
+        root.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                root.findViewById(R.id.content).setVisibility(View.VISIBLE);
+                root.findViewById(R.id.loading).setVisibility(View.GONE);
+            }
+        }, 1000);
         return root;
     }
 }
